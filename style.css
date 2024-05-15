@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    width: 100%;
+    border-bottom: solid 0.1px black;
+
+
+}
+
+.company-name#company-id{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    order: 4;
+
+}
+
+.company-name#company-id:hover{
+    color: rgb(30, 206, 30);
+    cursor: pointer;
+    border: solid 1px;
+    border-top: rgb(30, 206, 30);
+    border-bottom: rgb(30, 206, 30);
+    padding: 5px;
+
+
+}
+
+.logo{
+    height: 60px;
+    width: 90px;
+    border-radius: 30px;
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}
+
+nav {
+    order: 1;
+}
+
+li,a,button {
+ font-family: "Montserrat", sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ color: rgb(0, 0, 0);
+ text-decoration: none;
+ border: none;
+}
+button{
+    background-color:  #09CA0A;
+    color: white;
+    font-weight: bold;
+}
+
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li:nth-child(1){
+ padding: 0 20px 0 0;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #09CA0A;
+    padding: 3px;
+    border-top: 1px solid #09CA0A;
+    border-bottom: 1px solid #09CA0A;
+}
+
+
+
+.contact-btn{
+    order: 2;
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(9,202,10,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+}
+
+.contact-btn:hover{
+ background-color: rgba(9,202,8,0.47);
+}
